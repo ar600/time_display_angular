@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+    <button (click)='showPST()' [ngClass]="{ 'on': switch1}" >PST</button>
+
+    <button (click)='showMST()' [ngClass]="{ 'on': switch2}"  >MST</button>
+    <button (click)='showCST()' [ngClass]="{ 'on': switch3}">CST</button>
+    <p id='time'></p>
+
+  </h1>
